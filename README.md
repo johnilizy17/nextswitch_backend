@@ -13,6 +13,13 @@ git clone https://github.com/johnilizy17/nextswitch_backend
 ```py
 npm i
 ```
+
+> *for fast reloading and to aviod restart your server we use nodemon has a package*
+
+```py
+npm i nodemon
+```
+
 > *for running the node application*
 
 ```py
@@ -24,3 +31,6 @@ npm run dev
 ```py
 https://render.com/
 ```
+
+> *this for authorization and registering user *
+
