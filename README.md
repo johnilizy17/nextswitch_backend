@@ -26,6 +26,12 @@ npm i nodemon
 npm run dev
 ```
 
+> *for update the code on the github*
+
+```py
+git pull
+```
+
 > *for free deployment of your backend *
 
 ```py
