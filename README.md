@@ -18,3 +18,9 @@ npm i
 ```py
 npm run dev
 ```
+
+> *for free deployment of your backend *
+
+```py
+https://render.com/
+```
