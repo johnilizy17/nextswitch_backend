@@ -1,19 +1,9 @@
 require('dotenv').config();
 const User = require("../../models/user");
-const multer = require('multer');
 const bcrypt = require('bcrypt');
 const jwt = require("jsonwebtoken");
-const storage = multer.diskStorage({
-    destination: function (req, file, cb) {
-        cb(null, './uploads/')
-    },
-    filename: function (req, file, cb) {
-        cb(null, new Date().getMilliseconds() + file.originalname);
-    }
-});
-const { tokenCallback } = require('../../functions/token');
-const upload = multer({ storage: storage }).single('image');
 
+const { tokenCallback } = require('../../functions/token');
 
 const { verifyToken } = tokenCallback()
 

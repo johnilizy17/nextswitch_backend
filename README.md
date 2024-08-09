@@ -13,6 +13,11 @@ git clone https://github.com/johnilizy17/nextswitch_backend
 ```py
 npm i
 ```
+> *for installing yarn on your glodal machine.*
+
+```py
+npm i yarn -g 
+```
 
 > *for fast reloading and to aviod restart your server we use nodemon has a package*
 
